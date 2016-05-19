@@ -12,6 +12,7 @@ GameObject:
   - 135: {fileID: 13543208}
   - 23: {fileID: 2395936}
   - 54: {fileID: 5453506}
+  - 114: {fileID: 11491050}
   m_Layer: 0
   m_Name: Bullet
   m_TagString: Untagged
@@ -79,6 +80,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &11491050
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed68acfe62f28c4e933ff5d3abc71c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &13543208
 SphereCollider:
   m_ObjectHideFlags: 1

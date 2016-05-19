@@ -6,7 +6,8 @@ public class BulletHitReg: MonoBehaviour {
 
     void Update()
     {
-        audio = audio = GameObject.Find("DeathScream").GetComponent<AudioSource>();
+        audio = audio = GameObject.Find("Scream").GetComponent<AudioSource>();
+       
 
     }
 
